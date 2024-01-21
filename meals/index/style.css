@@ -1,0 +1,122 @@
+body{
+    background-color: rgb(245, 238, 229);
+
+}
+.logo{
+    width: 80px;
+    height: 80px;
+}
+header nav{
+  position: sticky;
+}
+nav{
+    display: flex;
+    justify-content:space-evenly;
+    position: sticky;
+
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 80px;
+    font-size: 20px;
+    
+}
+li a{
+    text-decoration: none;
+    color:#333
+}
+
+.section{
+    width: 100vw;
+    height: 500px;
+}
+.mmm{
+    font-family: 'Caveat', cursive;
+font-family: 'Grape Nuts', cursive;
+font-size: 50px;
+text-align: center;
+margin: 0;
+}
+.search-container{
+    font-family: Arial, sans-serif;
+      margin: 20px;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      margin-top: -580px;
+    }
+
+
+  .search-bar {
+    width: 700px; /* Adjust the width as needed */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    outline: none;
+    font-size: 16px;
+    background-color: rgba(255,255,255,0.7);
+  }
+
+  .search-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #333;
+    cursor: pointer;
+    margin-right: 365px;
+  }
+
+  /*.form-container {
+    text-align: center;
+    margin-top:570px ;
+  }
+
+  .form-container form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: rgb(252, 245, 237) ;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .form-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+  }
+
+  .form-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .form-container .signup-link {
+    margin-top: 10px;
+  }
+
+  .form-container .signup-link a {
+    color: #007BFF;
+    text-decoration: none;
+  }*/
+
+  .form-container{
+    margin-top: 550px;
+    text-align: center;
+  }
+  .btn{
+    border-radius: 50px;
+    border:none;
+    padding: 20px;
+    font-size: 22px;
+  }

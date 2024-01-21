@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cookfood.css">
+    <title>Weekly Dishes</title>
+</head>
+<body>
+
+<div class="container">
+    <h1>Weekly Dishes</h1>
+    <div class="days-container">
+        <div class="day" onclick="showDishes('Monday')">Monday</div>
+        <div class="day" onclick="showDishes('Tuesday')">Tuesday</div>
+        <div class="day" onclick="showDishes('Wednesday')">Wednesday</div>
+        <div class="day" onclick="showDishes('Thursday')">Thursday</div>
+        <div class="day" onclick="showDishes('Friday')">Friday</div>
+        <div class="day" onclick="showDishes('Saturday')">Saturday</div>
+        <div class="day" onclick="showDishes('Sunday')">Sunday</div>
+    </div>
+
+    <div class="dishes-container" id="dishesContainer">
+        <!-- Dishes for the selected day will be displayed here -->
+    </div>
+    <div class="button-container hide">
+        <button class="button" onclick="addToCart()">Add to Cart</button>
+        <button class="button" onclick="placeOrder()">Order</button>
+    </div>
+
+    <div class="all-dishes">
+        <h2>All Dishes</h2>
+        <div class="days">
+        <div class="day-dishes" id="MondayDishes">
+            <h3>Monday</h3>
+              <ul>
+                <li>Butter Chicken</li>
+                <li>Paneer Makhain</li>
+                <li>Kabuli Pulau</li>
+            </ul>
+
+        </div>
+        <div class="day-dishes" id="TuesdayDishes"><h3>Tuesday</h3>
+            <ul>
+                <li>Chicken Biryani</li>
+                <li>Paneer Makhani</li>
+                <li>Kabuli Pulau</li>
+            </ul></div>
+        <div class="day-dishes" id="WednesdayDishes"><h3>Wednesday</h3>
+            <ul>
+                <li>dal rice</li>
+                <li>Chhole Bhaturey</li>
+                <li>Paneer Makhani</li>
+            </ul></div>
+        <div class="day-dishes" id="ThursdayDishes"><h3>Thursday</h3>
+            <ul>
+                <li>Kabuli Pulau</li>
+                <li>Chicken Biryani</li>
+                <li>dal rice</li>
+            </ul></div>
+        <div class="day-dishes" id="FridayDishes"><h3>Friday</h3>
+            <ul>
+                <li>Kabuli Pulau</li>
+                <li>dal rice</li>
+                <li>Chicken Biryani</li>
+            </ul></div>
+        <div class="day-dishes" id="SaturdayDishes"><h3>Saturday</h3>
+            <ul>
+                <li>Paneer Makhani</li>
+                <li>Kabuli Pulau</li>
+                <li>Chicken Biryani</li>
+            </ul></div>
+        <div class="day-dishes" id="SundayDishes"><h3>Sunday</h3>
+            <ul>
+                <li>Paneer Makhani</li>
+                <li>Chicken Biryani</li>
+                <li>Kabuli Pulau</li>
+            </ul></div>
+    </div>
+    </div>
+</div>
+
+<script src="cookfood.js"></script>
+</body>
+</html>
